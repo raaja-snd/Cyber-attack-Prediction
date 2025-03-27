@@ -25,7 +25,9 @@ important_features = [
     "Packet Weight_7", "Attack Month_2", "Attack Month_12", "Device_Windows", "Malware Indicators_Not Detected"
 ]
 
-# App title 
+
+# App title with style
+
 st.markdown("<h1 style='color:#0A5275;'>🛡️ Cyber Attack Prediction App</h1>", unsafe_allow_html=True)
 
 # Introduction
