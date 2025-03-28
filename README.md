@@ -71,7 +71,7 @@ This is an example where a csv file containing 5 inputs are uploaded to the web 
 
 - Click on Browse and select your file.
 
-    <img src="assets/readme/r1.png" alt="drawing" width="284" height="194"/>
+    <img src="assets/readme/r1.png" alt="drawing" width="474" height="323"/>
 
 - Below are the results from the app.
 
