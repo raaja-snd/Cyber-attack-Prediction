@@ -71,11 +71,11 @@ This is an example where a csv file containing 5 inputs are uploaded to the web 
 
 - Click on Browse and select your file.
 
-    ![Browse](assets/readme/r1.png width="474" height="323")
+    ![Browse](assets/readme/r1.png)
 
 - Below are the results from the app.
 
-    ![Result](assets/readme/r2.png width="468" height="411")
+    ![Result](assets/readme/r2.png)
 ## Authors
 
 - [Fatima-Zahra Aboudafir](https://github.com/Fatima-ZahraAB)
