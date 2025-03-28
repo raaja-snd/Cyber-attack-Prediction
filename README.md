@@ -75,7 +75,8 @@ This is an example where a csv file containing 5 inputs are uploaded to the web 
 
 - Below are the results from the app.
 
-    ![Result](assets/readme/r2.png =280x246)
+    <img src="assets/readme/r1.png" alt="drawing" width="514" height="452"/>
+    
 ## Authors
 
 - [Fatima-Zahra Aboudafir](https://github.com/Fatima-ZahraAB)
