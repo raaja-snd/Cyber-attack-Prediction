@@ -18,9 +18,9 @@ Software requirements:
     ```bash
     git clone https://github.com/raaja-snd/Cyber-attack-Prediction.git
     ```
-- Create a new environment using Anaconda Prompt. Ex.
+- Create a new environment using Anaconda Prompt with the specified Python version [3.13.2]. Ex.
     ```bash
-    conda create -n example_env
+    conda create -n example_env python=3.13.2
     ```
 - Activate the new environment.
     ```bash
@@ -29,7 +29,17 @@ Software requirements:
 - From Anaconda Prompt navigate to the path with **requirements.txt** file in your cloned repository.
 - Install the packages required by the Web application using the following command.
     ```bash
-    conda install --file requirements.txt
+    pip install -r requirements.txt
+    ```
+- The model is stored in S3 for Data versioning using DVC. The DVC should be given access to get the model for our web app.
+    Use the following commands from Anaconda prompt. Access Key and Secret access key will be provided upon request.
+    ```bash
+    dvc remote modify --local model_storage access_key_id 'Key to be given'
+    dvc remote modify --local model_storage secret_access_key 'Key to be given'
+    ```
+- Run the following command to pull the model for the web application.
+    ```bash
+    dvc pull
     ```
 - Navigate to **app/** from Anaconda Prompt and Run the web application using the following command
     ```bash
