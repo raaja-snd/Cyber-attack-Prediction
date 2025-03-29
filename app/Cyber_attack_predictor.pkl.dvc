@@ -1,0 +1,5 @@
+outs:
+- md5: 411c77fa37ca3842b174d34cbf739ede
+  size: 286748337
+  hash: md5
+  path: Cyber_attack_predictor.pkl
